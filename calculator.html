@@ -1,0 +1,28 @@
+<!doctype html> 
+<html lang='en'>
+<head>
+	<title>Calculator</title>
+	<link href="StyleSheetModule5.css" rel="stylesheet" type="text/css"/>
+</head>
+<body> 
+	<table id="Calculator">
+		<tr>
+			<th colspan="4">Calculator</th>
+		</tr>
+		<tr>
+			<td colspan="4">First Number: <input type="number" id="Num1" name="firstNumber"/></td>
+		</tr>
+		<tr id = "opr">
+			<td>Plus <input type="radio" name="operation" value="plus"/></td>
+			<td>Minus <input type="radio" name="operation" value="minus"/></td>
+			<td>Times <input type="radio" name="operation" value="times"/></td>
+			<td>Over <input type="radio" name="operation" value="by"/></td>
+		</tr>
+		<tr>
+			<td colspan="4">Second Number: <input type="number" id="Num2" name="secondNumber"/></td>
+		</tr>
+	</table>
+	<h2 id="result"> Your current, updated result will be displayed here.</h2>
+	<script src="calculator.js"></script>
+</body>
+</html>
